@@ -1,6 +1,7 @@
+// IMPORTS
 const { convertAllFonts } = require('@hayes0724/web-font-converter')
 
-// This will convert all ttf fonts to both woff and woff2
+// CONVERT ALL FONTS
 convertAllFonts({
     pathIn: './fonts',
     pathOut: './output',
